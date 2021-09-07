@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>从零开始-集成轻量级ORM框架——SqlSugar</title>
-    <url>/2021/09/06/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B-%E9%9B%86%E6%88%90%E8%BD%BB%E9%87%8F%E7%BA%A7ORM%E6%A1%86%E6%9E%B6%E2%80%94%E2%80%94SqlSugar/</url>
-    <content><![CDATA[<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><p>1）使用NuGet上的包<br>2）从GitHub上下载源码<br>考虑到后续有可能会需要修改源码，使用了第二种方式</p>
-<p>将下载好的SqlSugar文件夹复制到包含主项目的同级文件夹下<br><img src="/2021/09/06/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B-%E9%9B%86%E6%88%90%E8%BD%BB%E9%87%8F%E7%BA%A7ORM%E6%A1%86%E6%9E%B6%E2%80%94%E2%80%94SqlSugar/1.jpg" alt="1"><br><img src="/2021/09/06/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B-%E9%9B%86%E6%88%90%E8%BD%BB%E9%87%8F%E7%BA%A7ORM%E6%A1%86%E6%9E%B6%E2%80%94%E2%80%94SqlSugar/2.jpg" alt="2"><br>选择SqlSugar文件夹下面的SqlSugar.csproj文件<br><img src="/2021/09/06/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B-%E9%9B%86%E6%88%90%E8%BD%BB%E9%87%8F%E7%BA%A7ORM%E6%A1%86%E6%9E%B6%E2%80%94%E2%80%94SqlSugar/3.jpg" alt="3"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>从零开始搭建自己的.Net Core Api框架-创建</title>
     <url>/2021/09/01/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><p>以.Net Core 为框架，版本为3.1， 集成 Swagger作为接口显示文档， 集成SqlSugar作为数据库操作ORM。<br><img src="/2021/09/01/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/1.jpg" alt="创建"></p>
@@ -24,6 +17,13 @@
 <h2 id="创建数据层"><a href="#创建数据层" class="headerlink" title="创建数据层"></a>创建数据层</h2><p><img src="/2021/09/01/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/DAL.jpg" alt="创建数据层"><br>该层负责直接或者间接对数据库进行操作</p>
 <h2 id="创建实体层"><a href="#创建实体层" class="headerlink" title="创建实体层"></a>创建实体层</h2><p><img src="/2021/09/01/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/Entity.jpg" alt="创建实体层"><br>该层为实体类层，存储了数据库对应的所有实体，实体一般和数据库表是一一对应的。</p>
 <h2 id="创建模型层"><a href="#创建模型层" class="headerlink" title="创建模型层"></a>创建模型层</h2><p><img src="/2021/09/01/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/Model.jpg" alt="创建模型层"><br>该层存放了一些系统帮助类，或是实体辅助类。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>从零开始-集成轻量级ORM框架——SqlSugar</title>
+    <url>/2021/09/06/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B-%E9%9B%86%E6%88%90%E8%BD%BB%E9%87%8F%E7%BA%A7ORM%E6%A1%86%E6%9E%B6%E2%80%94%E2%80%94SqlSugar/</url>
+    <content><![CDATA[<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><p>1）使用NuGet上的包<br>2）从GitHub上下载源码<br>考虑到后续有可能会需要修改源码，使用了第二种方式</p>
+<p>将下载好的SqlSugar文件夹复制到包含主项目的同级文件夹下<br><img src="/2021/09/06/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B-%E9%9B%86%E6%88%90%E8%BD%BB%E9%87%8F%E7%BA%A7ORM%E6%A1%86%E6%9E%B6%E2%80%94%E2%80%94SqlSugar/1.jpg" alt="1"><br><img src="/2021/09/06/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B-%E9%9B%86%E6%88%90%E8%BD%BB%E9%87%8F%E7%BA%A7ORM%E6%A1%86%E6%9E%B6%E2%80%94%E2%80%94SqlSugar/2.jpg" alt="2"><br>选择SqlSugar文件夹下面的SqlSugar.csproj文件<br><img src="/2021/09/06/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B-%E9%9B%86%E6%88%90%E8%BD%BB%E9%87%8F%E7%BA%A7ORM%E6%A1%86%E6%9E%B6%E2%80%94%E2%80%94SqlSugar/3.jpg" alt="3"></p>
 ]]></content>
   </entry>
 </search>
